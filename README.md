@@ -28,4 +28,4 @@ gtfs-realtime.proto3
 
 Note: I haven't field tested all these classes, so I would appreciate any feedback on how well they work.
 
-These classes are intended to be used in conjunction with the (google/protobuf package)[https://packagist.org/packages/google/protobuf] for parsing of gtfs-realtime feeds.
+These classes are intended to be used in conjunction with the [google/protobuf package](https://packagist.org/packages/google/protobuf) for parsing of gtfs-realtime feeds.
