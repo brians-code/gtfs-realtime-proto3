@@ -1,3 +1,4 @@
+// I commented out the original proto2 definitions so they can be used for reference
 // Step 1: Remove all 'optional' labels since all fields are optional
 // Step 2: Remove all 'required' labels since all fields are optional
 // Step 3: Remove all 'extensions' ranges, see https://developers.google.com/protocol-buffers/docs/proto3#any
