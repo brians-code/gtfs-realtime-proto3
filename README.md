@@ -3,17 +3,17 @@ This is a conversion of Google's [GTFS-realtime protobuff file](https://develope
 
 For example, this command will generate a file in the current directory that contains the PHP classes:
 ```
-./protoc --php_out=./ gtfs-realtime.proto3
+protoc --php_out=./ gtfs-realtime.proto3
 ```
 
 You can add filename.zip and protoc will automatically zip the class files for you:
 ```
-./protoc --php_out=./gtfs-realtime-php.zip gtfs-realtime.proto3
+protoc --php_out=./gtfs-realtime-php.zip gtfs-realtime.proto3
 ```
 
 I uploaded all the zip files for easy download, if you don't feel like generating your own. Here is the command I used:
 ```
-./protoc \
+protoc \
   --cpp_out=./gtfs-realtime-cpp.zip \
   --java_out=./gtfs-realtime-java.zip \
   --python_out=./gtfs-realtime-python.zip \
